@@ -33,3 +33,4 @@ yarn-error.log*
 .vercel
 .wrangler
 Docs/Fuster Cluck Farm (1)/uploads/
+out/
