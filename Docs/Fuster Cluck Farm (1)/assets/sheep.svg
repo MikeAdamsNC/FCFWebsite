@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 960" preserveAspectRatio="xMidYMid slice">
+  <rect width="1280" height="960" fill="#b8c19d"></rect>
+  
+    <rect y="0" width="1280" height="380" fill="#d8d9c3"></rect>
+    
+    <path d="M0 400 Q 320 320 640 380 T 1280 360 L 1280 460 L 0 460 Z" fill="#8a9a6d"></path>
+    
+    <rect y="440" width="1280" height="520" fill="#a3b27a"></rect>
+    <path d="M0 500 Q 640 460 1280 520 L 1280 640 Q 640 600 0 680 Z" fill="#93a26a" opacity="0.7"></path>
+    
+    
+      <rect x="40" y="440" width="6" height="60" fill="#5a4530"></rect>
+    
+      <rect x="240" y="440" width="6" height="60" fill="#5a4530"></rect>
+    
+      <rect x="440" y="440" width="6" height="60" fill="#5a4530"></rect>
+    
+      <rect x="640" y="440" width="6" height="60" fill="#5a4530"></rect>
+    
+      <rect x="840" y="440" width="6" height="60" fill="#5a4530"></rect>
+    
+      <rect x="1040" y="440" width="6" height="60" fill="#5a4530"></rect>
+    
+      <rect x="1240" y="440" width="6" height="60" fill="#5a4530"></rect>
+    
+    <line x1="0" y1="460" x2="1280" y2="460" stroke="#5a4530" stroke-width="2"></line>
+    <line x1="0" y1="485" x2="1280" y2="485" stroke="#5a4530" stroke-width="2"></line>
+    
+    
+      <circle cx="212.5" cy="700" r="52.25000000000001" fill="#f4f0e2"></circle>
+      <circle cx="260" cy="671.5" r="52.25000000000001" fill="#f4f0e2"></circle>
+      <circle cx="288.5" cy="690.5" r="47.5" fill="#f4f0e2"></circle>
+      <circle cx="307.5" cy="714.25" r="47.5" fill="#f4f0e2"></circle>
+      <circle cx="241" cy="719" r="52.25000000000001" fill="#f4f0e2"></circle>
+      
+      <ellipse cx="174.5" cy="690.5" rx="30.400000000000002" ry="26.6" fill="#2a2218"></ellipse>
+      <ellipse cx="160.25" cy="671.5" rx="11.4" ry="19" fill="#2a2218"></ellipse>
+      <ellipse cx="188.75" cy="671.5" rx="11.4" ry="19" fill="#2a2218"></ellipse>
+      
+      <rect x="231.5" y="738" width="6" height="38" fill="#2a2218"></rect>
+      <rect x="269.5" y="738" width="6" height="38" fill="#2a2218"></rect>
+      <rect x="298" y="738" width="6" height="38" fill="#2a2218"></rect>
+    
+      <circle cx="397.5" cy="740" r="46.75000000000001" fill="#f4f0e2"></circle>
+      <circle cx="440" cy="714.5" r="46.75000000000001" fill="#f4f0e2"></circle>
+      <circle cx="465.5" cy="731.5" r="42.5" fill="#f4f0e2"></circle>
+      <circle cx="482.5" cy="752.75" r="42.5" fill="#f4f0e2"></circle>
+      <circle cx="423" cy="757" r="46.75000000000001" fill="#f4f0e2"></circle>
+      
+      <ellipse cx="363.5" cy="731.5" rx="27.2" ry="23.8" fill="#2a2218"></ellipse>
+      <ellipse cx="350.75" cy="714.5" rx="10.2" ry="17" fill="#2a2218"></ellipse>
+      <ellipse cx="376.25" cy="714.5" rx="10.2" ry="17" fill="#2a2218"></ellipse>
+      
+      <rect x="414.5" y="774" width="6" height="34" fill="#2a2218"></rect>
+      <rect x="448.5" y="774" width="6" height="34" fill="#2a2218"></rect>
+      <rect x="474" y="774" width="6" height="34" fill="#2a2218"></rect>
+    
+      <circle cx="570" cy="690" r="55.00000000000001" fill="#f4f0e2"></circle>
+      <circle cx="620" cy="660" r="55.00000000000001" fill="#f4f0e2"></circle>
+      <circle cx="650" cy="680" r="50" fill="#f4f0e2"></circle>
+      <circle cx="670" cy="705" r="50" fill="#f4f0e2"></circle>
+      <circle cx="600" cy="710" r="55.00000000000001" fill="#f4f0e2"></circle>
+      
+      <ellipse cx="530" cy="680" rx="32" ry="28.000000000000004" fill="#2a2218"></ellipse>
+      <ellipse cx="515" cy="660" rx="12" ry="20" fill="#2a2218"></ellipse>
+      <ellipse cx="545" cy="660" rx="12" ry="20" fill="#2a2218"></ellipse>
+      
+      <rect x="590" y="730" width="6" height="40" fill="#2a2218"></rect>
+      <rect x="630" y="730" width="6" height="40" fill="#2a2218"></rect>
+      <rect x="660" y="730" width="6" height="40" fill="#2a2218"></rect>
+    
+      <circle cx="775" cy="720" r="49.50000000000001" fill="#f4f0e2"></circle>
+      <circle cx="820" cy="693" r="49.50000000000001" fill="#f4f0e2"></circle>
+      <circle cx="847" cy="711" r="45" fill="#f4f0e2"></circle>
+      <circle cx="865" cy="733.5" r="45" fill="#f4f0e2"></circle>
+      <circle cx="802" cy="738" r="49.50000000000001" fill="#f4f0e2"></circle>
+      
+      <ellipse cx="739" cy="711" rx="28.8" ry="25.200000000000003" fill="#2a2218"></ellipse>
+      <ellipse cx="725.5" cy="693" rx="10.799999999999999" ry="18" fill="#2a2218"></ellipse>
+      <ellipse cx="752.5" cy="693" rx="10.799999999999999" ry="18" fill="#2a2218"></ellipse>
+      
+      <rect x="793" y="756" width="6" height="36" fill="#2a2218"></rect>
+      <rect x="829" y="756" width="6" height="36" fill="#2a2218"></rect>
+      <rect x="856" y="756" width="6" height="36" fill="#2a2218"></rect>
+    
+      <circle cx="972.5" cy="700" r="52.25000000000001" fill="#f4f0e2"></circle>
+      <circle cx="1020" cy="671.5" r="52.25000000000001" fill="#f4f0e2"></circle>
+      <circle cx="1048.5" cy="690.5" r="47.5" fill="#f4f0e2"></circle>
+      <circle cx="1067.5" cy="714.25" r="47.5" fill="#f4f0e2"></circle>
+      <circle cx="1001" cy="719" r="52.25000000000001" fill="#f4f0e2"></circle>
+      
+      <ellipse cx="934.5" cy="690.5" rx="30.400000000000002" ry="26.6" fill="#2a2218"></ellipse>
+      <ellipse cx="920.25" cy="671.5" rx="11.4" ry="19" fill="#2a2218"></ellipse>
+      <ellipse cx="948.75" cy="671.5" rx="11.4" ry="19" fill="#2a2218"></ellipse>
+      
+      <rect x="991.5" y="738" width="6" height="38" fill="#2a2218"></rect>
+      <rect x="1029.5" y="738" width="6" height="38" fill="#2a2218"></rect>
+      <rect x="1058" y="738" width="6" height="38" fill="#2a2218"></rect>
+    
+  
+</svg>

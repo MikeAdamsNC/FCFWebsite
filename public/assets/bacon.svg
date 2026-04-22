@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 960" preserveAspectRatio="xMidYMid slice">
+  <rect width="1280" height="960" fill="#a04828"></rect>
+  
+    <rect y="0" width="1280" height="960" fill="#5a2818"></rect>
+    
+    <rect x="100" y="120" width="1080" height="720" fill="#ead9b8" transform="rotate(-2 640 480)"></rect>
+    
+    
+      <g transform="rotate(-3 640 480)">
+        <path d="M 180 240 Q 400 210 640 240 T 1100 240" stroke="#c85030" stroke-width="80" fill="none" stroke-linecap="round"></path>
+        <path d="M 180 225 Q 400 195 640 225 T 1100 225" stroke="#f4e8c0" stroke-width="14" fill="none"></path>
+        <path d="M 180 252 Q 400 222 640 252 T 1100 252" stroke="#f4e8c0" stroke-width="10" fill="none"></path>
+        <path d="M 180 238 Q 400 208 640 238 T 1100 238" stroke="#8a2418" stroke-width="6" fill="none"></path>
+      </g>
+      <g transform="rotate(-3 640 480)">
+        <path d="M 180 350 Q 400 320 640 350 T 1100 350" stroke="#c85030" stroke-width="80" fill="none" stroke-linecap="round"></path>
+        <path d="M 180 335 Q 400 305 640 335 T 1100 335" stroke="#f4e8c0" stroke-width="14" fill="none"></path>
+        <path d="M 180 362 Q 400 332 640 362 T 1100 362" stroke="#f4e8c0" stroke-width="10" fill="none"></path>
+        <path d="M 180 348 Q 400 318 640 348 T 1100 348" stroke="#8a2418" stroke-width="6" fill="none"></path>
+      </g>
+      <g transform="rotate(-3 640 480)">
+        <path d="M 180 460 Q 400 430 640 460 T 1100 460" stroke="#c85030" stroke-width="80" fill="none" stroke-linecap="round"></path>
+        <path d="M 180 445 Q 400 415 640 445 T 1100 445" stroke="#f4e8c0" stroke-width="14" fill="none"></path>
+        <path d="M 180 472 Q 400 442 640 472 T 1100 472" stroke="#f4e8c0" stroke-width="10" fill="none"></path>
+        <path d="M 180 458 Q 400 428 640 458 T 1100 458" stroke="#8a2418" stroke-width="6" fill="none"></path>
+      </g>
+      <g transform="rotate(-3 640 480)">
+        <path d="M 180 570 Q 400 540 640 570 T 1100 570" stroke="#c85030" stroke-width="80" fill="none" stroke-linecap="round"></path>
+        <path d="M 180 555 Q 400 525 640 555 T 1100 555" stroke="#f4e8c0" stroke-width="14" fill="none"></path>
+        <path d="M 180 582 Q 400 552 640 582 T 1100 582" stroke="#f4e8c0" stroke-width="10" fill="none"></path>
+        <path d="M 180 568 Q 400 538 640 568 T 1100 568" stroke="#8a2418" stroke-width="6" fill="none"></path>
+      </g>
+      <g transform="rotate(-3 640 480)">
+        <path d="M 180 680 Q 400 650 640 680 T 1100 680" stroke="#c85030" stroke-width="80" fill="none" stroke-linecap="round"></path>
+        <path d="M 180 665 Q 400 635 640 665 T 1100 665" stroke="#f4e8c0" stroke-width="14" fill="none"></path>
+        <path d="M 180 692 Q 400 662 640 692 T 1100 692" stroke="#f4e8c0" stroke-width="10" fill="none"></path>
+        <path d="M 180 678 Q 400 648 640 678 T 1100 678" stroke="#8a2418" stroke-width="6" fill="none"></path>
+      </g>
+  
+</svg>

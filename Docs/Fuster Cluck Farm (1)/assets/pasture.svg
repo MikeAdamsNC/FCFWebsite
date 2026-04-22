@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 960" preserveAspectRatio="xMidYMid slice">
+  <rect width="1280" height="960" fill="#d8ccb0"></rect>
+  
+    <defs>
+      <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0" stop-color="#f4e8d0"></stop>
+        <stop offset="1" stop-color="#c8b88a"></stop>
+      </linearGradient>
+      <linearGradient id="mist" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0" stop-color="#e8dcb8" stop-opacity="0"></stop>
+        <stop offset="1" stop-color="#e8dcb8" stop-opacity="0.6"></stop>
+      </linearGradient>
+    </defs>
+    <rect width="1280" height="560" fill="url(#sky)"></rect>
+    
+    <circle cx="860" cy="360" r="90" fill="#f4d880" opacity="0.5"></circle>
+    
+    <path d="M0 500 Q 200 460 400 480 T 800 470 T 1280 490 L 1280 560 L 0 560 Z" fill="#6a7a50" opacity="0.5"></path>
+    <path d="M0 540 Q 200 500 400 520 T 800 510 T 1280 530 L 1280 600 L 0 600 Z" fill="#5a6a40" opacity="0.7"></path>
+    
+    <rect y="560" width="1280" height="400" fill="#a89a6a"></rect>
+    <path d="M0 620 Q 640 560 1280 620 L 1280 720 Q 640 680 0 740 Z" fill="#988a5a" opacity="0.6"></path>
+    
+    <rect y="440" width="1280" height="200" fill="url(#mist)"></rect>
+    
+    
+      <rect x="100" y="640" width="4" height="80" fill="#3a2818"></rect>
+    
+      <rect x="300" y="640" width="4" height="80" fill="#3a2818"></rect>
+    
+      <rect x="500" y="640" width="4" height="80" fill="#3a2818"></rect>
+    
+      <rect x="700" y="640" width="4" height="80" fill="#3a2818"></rect>
+    
+      <rect x="900" y="640" width="4" height="80" fill="#3a2818"></rect>
+    
+      <rect x="1100" y="640" width="4" height="80" fill="#3a2818"></rect>
+    
+    <line x1="0" y1="670" x2="1280" y2="670" stroke="#3a2818" stroke-width="2"></line>
+    <line x1="0" y1="700" x2="1280" y2="700" stroke="#3a2818" stroke-width="2"></line>
+  
+</svg>

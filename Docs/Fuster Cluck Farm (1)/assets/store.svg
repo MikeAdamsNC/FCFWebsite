@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 960" preserveAspectRatio="xMidYMid slice">
+  <rect width="1280" height="960" fill="#3a2818"></rect>
+  
+    <rect y="0" width="1280" height="960" fill="#8a6a48"></rect>
+    
+    
+      <rect x="0" y="0" width="106" height="960" fill="#8a6a48"></rect>
+      <line x1="108" y1="0" x2="108" y2="960" stroke="#3a2818" stroke-width="2"></line>
+    
+      <rect x="110" y="0" width="106" height="960" fill="#7a5a3e"></rect>
+      <line x1="218" y1="0" x2="218" y2="960" stroke="#3a2818" stroke-width="2"></line>
+    
+      <rect x="220" y="0" width="106" height="960" fill="#8a6a48"></rect>
+      <line x1="328" y1="0" x2="328" y2="960" stroke="#3a2818" stroke-width="2"></line>
+    
+      <rect x="330" y="0" width="106" height="960" fill="#7a5a3e"></rect>
+      <line x1="438" y1="0" x2="438" y2="960" stroke="#3a2818" stroke-width="2"></line>
+    
+      <rect x="440" y="0" width="106" height="960" fill="#8a6a48"></rect>
+      <line x1="548" y1="0" x2="548" y2="960" stroke="#3a2818" stroke-width="2"></line>
+    
+      <rect x="550" y="0" width="106" height="960" fill="#7a5a3e"></rect>
+      <line x1="658" y1="0" x2="658" y2="960" stroke="#3a2818" stroke-width="2"></line>
+    
+      <rect x="660" y="0" width="106" height="960" fill="#8a6a48"></rect>
+      <line x1="768" y1="0" x2="768" y2="960" stroke="#3a2818" stroke-width="2"></line>
+    
+      <rect x="770" y="0" width="106" height="960" fill="#7a5a3e"></rect>
+      <line x1="878" y1="0" x2="878" y2="960" stroke="#3a2818" stroke-width="2"></line>
+    
+      <rect x="880" y="0" width="106" height="960" fill="#8a6a48"></rect>
+      <line x1="988" y1="0" x2="988" y2="960" stroke="#3a2818" stroke-width="2"></line>
+    
+      <rect x="990" y="0" width="106" height="960" fill="#7a5a3e"></rect>
+      <line x1="1098" y1="0" x2="1098" y2="960" stroke="#3a2818" stroke-width="2"></line>
+    
+      <rect x="1100" y="0" width="106" height="960" fill="#8a6a48"></rect>
+      <line x1="1208" y1="0" x2="1208" y2="960" stroke="#3a2818" stroke-width="2"></line>
+    
+      <rect x="1210" y="0" width="106" height="960" fill="#7a5a3e"></rect>
+      <line x1="1318" y1="0" x2="1318" y2="960" stroke="#3a2818" stroke-width="2"></line>
+    
+    
+    <rect x="380" y="160" width="520" height="720" fill="#2a1810"></rect>
+    <rect x="400" y="180" width="480" height="680" fill="#5a3a22"></rect>
+    <rect x="400" y="180" width="240" height="680" fill="#4a3018"></rect>
+    
+    <line x1="520" y1="180" x2="520" y2="860" stroke="#2a1810" stroke-width="3"></line>
+    <line x1="640" y1="180" x2="640" y2="860" stroke="#2a1810" stroke-width="3"></line>
+    <line x1="760" y1="180" x2="760" y2="860" stroke="#2a1810" stroke-width="3"></line>
+    
+    <path d="M 400 280 L 880 180 L 880 240 L 400 340 Z" fill="#2a1810" opacity="0.4"></path>
+    
+    <circle cx="620" cy="520" r="10" fill="#1a1008"></circle>
+    <circle cx="660" cy="520" r="10" fill="#1a1008"></circle>
+    
+    <rect x="460" y="280" width="360" height="180" fill="#1a2418" stroke="#6a4828" stroke-width="8"></rect>
+    <text x="640" y="340" font-family="Caveat, cursive" font-size="52" fill="#f4e8c0" text-anchor="middle">Farm Store</text>
+    <text x="640" y="395" font-family="Caveat, cursive" font-size="36" fill="#d4c4a0" text-anchor="middle">Open Fri &amp; Sat</text>
+    <text x="640" y="430" font-family="Caveat, cursive" font-size="32" fill="#d4c4a0" text-anchor="middle">10 – 2</text>
+  
+</svg>

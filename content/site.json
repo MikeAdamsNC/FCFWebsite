@@ -1,0 +1,202 @@
+{
+  "brand": {
+    "name": "Fuster Cluck Farm",
+    "tagline": "A small family farm in Eastern North Carolina, raising pasture chicken, pork, and lamb the way it ought to be raised.",
+    "shortTagline": "Raised right. Sold right.",
+    "logoUrl": "/assets/logo.png",
+    "established": "2010"
+  },
+  "contact": {
+    "phone": "919-632-1433",
+    "phoneHref": "tel:19196321433",
+    "email": "fustercluckfarmnc@gmail.com",
+    "address": {
+      "street": "3614 Glendale Road",
+      "city": "Kenly",
+      "state": "NC",
+      "zip": "27542"
+    }
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/profile.php?id=100051136304459",
+    "instagram": "https://www.instagram.com/fuster_cluck_farm/"
+  },
+  "shopLinks": {
+    "barn2door": "https://app.barn2door.com/fustercluckfarm/all"
+  },
+  "hours": {
+    "days": [5, 6],
+    "open": 10,
+    "close": 14,
+    "display": [
+      { "label": "FRIDAY", "value": "10 AM \u2013 2 PM" },
+      { "label": "SATURDAY", "value": "10 AM \u2013 2 PM" },
+      { "label": "SUN \u2013 THURSDAY", "value": "Closed \u00b7 online orders welcome" }
+    ]
+  },
+  "announce": {
+    "message": "Free delivery on orders $100+ in Johnston County \u00b7 Next pickup Fri Apr 24",
+    "link": "https://app.barn2door.com/fustercluckfarm/all",
+    "linkLabel": "Shop online \u2192"
+  },
+  "map": {
+    "lat": 35.5932,
+    "lng": -78.1284,
+    "zoom": 15,
+    "pinLabel": "Fuster Cluck Farm",
+    "directionsUrl": "https://maps.google.com/?q=3614+Glendale+Rd+Kenly+NC+27542"
+  },
+  "hero": {
+    "titleVariant": "cluck",
+    "heroVariant": "polaroid",
+    "eyebrow": "Kenly, NC \u00b7 Est. 2010",
+    "subcopy": "We're Jim and Carol, and we run a small family farm an hour east of Raleigh. Pasture chicken and pork, eggs from hens that live outside, sourdough baked on Friday \u2014 all of it brought up slow and sold direct.",
+    "meta": [
+      { "label": "Farm Store", "value": "Fri & Sat \u00b7 10 \u2013 2" },
+      { "label": "Delivery", "value": "Right to your door" },
+      { "label": "Since", "value": "2010" }
+    ]
+  },
+  "homeStory": {
+    "eyebrow": "Our story",
+    "heading": "We raise good food and <em>honest animals.</em>",
+    "body": [
+      "It started with a handful of laying hens and a coop we built from scrap lumber. Fifteen years later we're still a small farm \u2014 by choice \u2014 because that's the only way we know how to do this well.",
+      "Our chickens live on pasture. Our pigs root through the woods. The sourdough comes out of our own oven. Nothing here is on a conveyor belt, and nothing here is pretending."
+    ],
+    "signature": "\u2014 Jim & Carol",
+    "image": "/assets/photos/jim-carol-selfie.jpg"
+  },
+  "homeQuote": {
+    "text": "The chicken actually tastes like chicken. I didn't know what I was missing until I started buying from Jim and Carol.",
+    "cite": "\u2014 Meredith, Wilson NC"
+  },
+  "homeCta": {
+    "eyebrow": "Classes",
+    "heading": "Learn it with <em>your own hands.</em>",
+    "body": "From sourdough to backyard chickens \u2014 we host small workshops on the farm most weekends. Come get dirt under your fingernails."
+  },
+  "products": [
+    { "id": "whole-chicken",  "name": "Whole Chicken",       "cut": "Pasture Raised",               "price": 7.5,  "unit": "lb",    "tag": "Best Seller",  "image": "/assets/photos/poultry-packs.jpg" },
+    { "id": "chicken-breast", "name": "Boneless Breast",     "cut": "Pasture Raised \u00b7 Chicken", "price": 14,   "unit": "lb",    "tag": null,            "image": "/assets/photos/chickens.jpg" },
+    { "id": "pork-chops",     "name": "Thick Cut Chops",     "cut": "Pasture Raised \u00b7 Pork",    "price": 12,   "unit": "lb",    "tag": "Fresh",         "image": "/assets/photos/meat-bundle.jpg" },
+    { "id": "bacon",          "name": "Smoked Bacon",        "cut": "Pasture Raised \u00b7 Pork",    "price": 14,   "unit": "lb",    "tag": null,            "image": "/assets/photos/bacon.jpg" },
+    { "id": "ground-pork",    "name": "Ground Pork",         "cut": "Pasture Raised \u00b7 Pork",    "price": 9,    "unit": "lb",    "tag": null,            "image": "/assets/photos/pig-snout-wide.jpg" },
+    { "id": "sausage",        "name": "Breakfast Sausage",   "cut": "House Seasoned \u00b7 Pork",    "price": 10,   "unit": "lb",    "tag": "House made",    "image": "/assets/photos/meat-bundle.jpg" },
+    { "id": "eggs",           "name": "Farm Eggs",           "cut": "Pasture Raised \u00b7 Dozen",   "price": 7,    "unit": "dozen", "tag": null,            "image": "/assets/photos/meat-compare.jpg" },
+    { "id": "sourdough",      "name": "Country Sourdough",   "cut": "Baked Friday \u00b7 Loaf",      "price": 9,    "unit": "loaf",  "tag": "Limited",       "image": "/assets/photos/sourdough-display.jpg" }
+  ],
+  "animals": [
+    { "id": "chickens", "name": "The Flock",            "count": "200+ laying hens",   "cls": "a1", "image": "/assets/photos/chickens.jpg" },
+    { "id": "pigs",     "name": "Idaho Pasture Pigs",   "count": "Heritage breed",     "cls": "a2", "image": "/assets/photos/piglets.jpg" },
+    { "id": "sheep",    "name": "Katahdin Sheep",      "count": "Grass-fed flock",    "cls": "a3", "image": "/assets/photos/sheep-pasture.jpg" },
+    { "id": "eggs",     "name": "The Eggs",             "count": "Pasture raised, daily","cls": "a4", "image": "/assets/photos/meat-compare.jpg" },
+    { "id": "cows",     "name": "Belted Galloways",     "count": "Cattle & calves",    "cls": "a5", "image": "/assets/photos/cows.jpg" },
+    { "id": "farm",     "name": "The Farm",             "count": "Kenly, NC",          "cls": "a6", "image": "/assets/photos/rainbow-coop.jpg" }
+  ],
+  "classes": [
+    { "id": "class-1", "date": "2026-04-25", "month": "Apr", "day": 25, "name": "Sourdough from Scratch",     "time": "10:00 AM \u2013 1:00 PM",  "seats": "6 spots left", "price": 85, "desc": "Build a starter, learn the shaping, leave with a loaf." },
+    { "id": "class-2", "date": "2026-05-02", "month": "May", "day": 2,  "name": "Backyard Chicken Basics",    "time": "9:00 AM \u2013 11:30 AM",  "seats": "Open",          "price": 55, "desc": "Breeds, coops, feed, predators. For first-time keepers." },
+    { "id": "class-3", "date": "2026-05-09", "month": "May", "day": 9,  "name": "Butchering a Whole Chicken", "time": "1:00 PM \u2013 4:00 PM",   "seats": "4 spots left", "price": 95, "desc": "Hands-on, take home what you process." },
+    { "id": "class-4", "date": "2026-05-16", "month": "May", "day": 16, "name": "Pasture Walk & Farm Tour",   "time": "10:00 AM \u2013 12:00 PM", "seats": "Open",          "price": 20, "desc": "Meet the animals, see the rotations, ask anything." },
+    { "id": "class-5", "date": "2026-05-30", "month": "May", "day": 30, "name": "Putting Up the Harvest",     "time": "9:00 AM \u2013 12:00 PM",  "seats": "8 spots left", "price": 65, "desc": "Water-bath canning, tomatoes and jam." }
+  ],
+  "stock": [
+    { "name": "Whole Chickens",     "state": "in",  "tag": "In Stock" },
+    { "name": "Chicken Parts",      "state": "in",  "tag": "In Stock" },
+    { "name": "Pork Chops",         "state": "in",  "tag": "In Stock" },
+    { "name": "Bacon",              "state": "low", "tag": "Running Low" },
+    { "name": "Ground Pork",        "state": "in",  "tag": "In Stock" },
+    { "name": "Breakfast Sausage",  "state": "in",  "tag": "In Stock" },
+    { "name": "Fresh Eggs",         "state": "in",  "tag": "In Stock" },
+    { "name": "Sourdough Bread",    "state": "low", "tag": "Fri Only" },
+    { "name": "Raw Pet Milk",       "state": "in",  "tag": "In Stock" },
+    { "name": "Lamb (cuts)",        "state": "low", "tag": "Limited" },
+    { "name": "Beef (cuts)",        "state": "in",  "tag": "In Stock" },
+    { "name": "Seasonal Produce",   "state": "out", "tag": "Between Seasons" }
+  ],
+  "gallery": [
+    { "image": "/assets/photos/chickens.jpg",          "cls": "tall", "label": "Farm life #1" },
+    { "image": "/assets/photos/pig-snout.jpg",         "cls": "sq",   "label": "Farm life #2" },
+    { "image": "/assets/photos/sheep-sunset.jpg",      "cls": "wide", "label": "Farm life #3" },
+    { "image": "/assets/photos/meat-compare.jpg",      "cls": "sq",   "label": "Farm life #4" },
+    { "image": "/assets/photos/rainbow-coop.jpg",      "cls": "tall", "label": "Farm life #5" },
+    { "image": "/assets/photos/farm-sign.jpg",         "cls": "wide", "label": "Farm life #6" },
+    { "image": "/assets/photos/piglets.jpg",           "cls": "sq",   "label": "Farm life #7" },
+    { "image": "/assets/photos/lamb-carol.jpg",        "cls": "tall", "label": "Farm life #8" },
+    { "image": "/assets/photos/cows.jpg",              "cls": "wide", "label": "Farm life #9" },
+    { "image": "/assets/photos/sourdough-sliced.jpg",  "cls": "sq",   "label": "Farm life #10" },
+    { "image": "/assets/photos/bacon.jpg",             "cls": "tall", "label": "Farm life #11" },
+    { "image": "/assets/photos/peppers.jpg",           "cls": "wide", "label": "Farm life #12" },
+    { "image": "/assets/photos/coop.jpg",              "cls": "tall", "label": "Farm life #13" },
+    { "image": "/assets/photos/calf.jpg",              "cls": "sq",   "label": "Farm life #14" },
+    { "image": "/assets/photos/cat.jpg",               "cls": "wide", "label": "Farm life #15" },
+    { "image": "/assets/photos/sourdough-display.jpg", "cls": "sq",   "label": "Farm life #16" },
+    { "image": "/assets/photos/chickens-flock.jpg",    "cls": "tall", "label": "Farm life #17" },
+    { "image": "/assets/photos/store-welcome.jpg",     "cls": "wide", "label": "Farm life #18" },
+    { "image": "/assets/photos/lamb.jpg",              "cls": "sq",   "label": "Farm life #19" },
+    { "image": "/assets/photos/pasture-sunset.jpg",    "cls": "tall", "label": "Farm life #20" },
+    { "image": "/assets/photos/jim-cow.jpg",           "cls": "wide", "label": "Farm life #21" },
+    { "image": "/assets/photos/class-kitchen.jpg",     "cls": "sq",   "label": "Farm life #22" },
+    { "image": "/assets/photos/pasture-walk.jpg",      "cls": "tall", "label": "Farm life #23" },
+    { "image": "/assets/photos/honey.jpg",             "cls": "wide", "label": "Farm life #24" }
+  ],
+  "pages": {
+    "home": {
+      "farmStoreTitle": "The <em>Farm Store.</em>",
+      "farmStoreHours": "Farm Store",
+      "farmStoreMeta": [
+        { "label": "Farm Store", "value": "Fri & Sat \u00b7 10 \u2013 2" },
+        { "label": "Delivery", "value": "Right to your door" },
+        { "label": "Since", "value": "2010" }
+      ]
+    },
+    "animals": {
+      "title": "Meet <em>the critters.</em>",
+      "lede": "Everybody on this farm has a job \u2014 even the dogs. Here's who you'll find if you come visit.",
+      "sections": [
+        { "eyebrow": "How we raise them", "heading": "<em>Pasture first.</em>", "body": "The birds and pigs move to fresh grass on a rotation. That's better for the animals, better for the soil, and better for what ends up on your plate." },
+        { "eyebrow": "Feed",               "heading": "<em>No junk.</em>",       "body": "Non-GMO grain supplement to what they forage. No antibiotics, no hormones, no weird shortcuts." },
+        { "eyebrow": "Processing",         "heading": "<em>Small batch.</em>",   "body": "Poultry processed on-farm in small batches. Pork and lamb handled by a local USDA butcher we trust." }
+      ]
+    },
+    "about": {
+      "title": "A small <em>family farm</em> with a funny name.",
+      "lede": "Yes, the name is a pun. Yes, our neighbors made us explain it. We kept it anyway.",
+      "eyebrow": "Our story",
+      "heading": "Fifteen years of<br/><em>learning the hard way.</em>",
+      "body": [
+        "We started with a dozen chickens in the backyard in 2010. We wanted eggs we could trust, and one thing led to another. We built coops. We read every book. We made every mistake.",
+        "Today we raise pasture chicken, pork, and lamb on a piece of land in Kenly. We bake sourdough on Friday. We milk Jerseys for a pet-milk herdshare. We teach classes to anyone who wants to learn what we wish someone had taught us early.",
+        "We are not a big operation. We don't want to be. What we want is to raise good food for families who care where theirs comes from \u2014 and to know those families by name."
+      ],
+      "portrait": "/assets/photos/jim-carol-field.jpg",
+      "beliefs": [
+        { "heading": "<em>Small is the point.</em>", "body": "Every scale decision we make favors the animal, the soil, and the customer over growth." },
+        { "heading": "<em>Direct is honest.</em>",   "body": "Selling straight to the family who eats it keeps us accountable in a way wholesale never does." },
+        { "heading": "<em>Teach what we know.</em>", "body": "We'd rather more people did this themselves than keep any of it secret." }
+      ]
+    },
+    "classes": {
+      "title": "Workshops on <em>the farm.</em>",
+      "lede": "Small groups. Hands-on. Come ready to work and we'll send you home with something you made."
+    },
+    "farmStore": {
+      "title": "The <em>Farm Store.</em>",
+      "lede": "Come pick out your cuts in person. The cooler's full on Friday morning and we restock as best we can through Saturday.",
+      "coolerHeading": "What's in <em>the cooler.</em>",
+      "coolerSub": "Updated Friday morning. Call ahead \u2014 919-632-1433 \u2014 if you want us to set something aside.",
+      "heroImage": "/assets/photos/farm-sign.jpg",
+      "mapHeading": "3614 Glendale Road, <em>Kenly NC.</em>",
+      "mapSectionNum": "Find us"
+    },
+    "contact": {
+      "title": "Drop us <em>a line.</em>",
+      "lede": "Fastest way is a text. We'll get back to you between the morning chores and the evening feed \u2014 usually within a day."
+    },
+    "gallery": {
+      "title": "Life <em>on the farm.</em>",
+      "lede": "A little window into the everyday. Most of these come from our phones in our back pockets."
+    }
+  }
+}

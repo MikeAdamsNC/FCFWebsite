@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 960" preserveAspectRatio="xMidYMid slice">
+  <rect width="1280" height="960" fill="#2c3420"></rect>
+  
+    <rect y="0" width="1280" height="380" fill="#4a5032"></rect>
+    
+    
+      <rect x="102" y="200" width="36" height="300" fill="#3a2a1a"></rect>
+      <ellipse cx="120" cy="180" rx="80" ry="140" fill="#4a5a2c" opacity="0.9"></ellipse>
+    
+      <rect x="262" y="200" width="36" height="300" fill="#3a2a1a"></rect>
+      <ellipse cx="280" cy="180" rx="86" ry="160" fill="#4a5a2c" opacity="0.9"></ellipse>
+    
+      <rect x="422" y="200" width="36" height="300" fill="#3a2a1a"></rect>
+      <ellipse cx="440" cy="180" rx="92" ry="180" fill="#4a5a2c" opacity="0.9"></ellipse>
+    
+      <rect x="582" y="200" width="36" height="300" fill="#3a2a1a"></rect>
+      <ellipse cx="600" cy="180" rx="98" ry="140" fill="#4a5a2c" opacity="0.9"></ellipse>
+    
+      <rect x="742" y="200" width="36" height="300" fill="#3a2a1a"></rect>
+      <ellipse cx="760" cy="180" rx="104" ry="160" fill="#4a5a2c" opacity="0.9"></ellipse>
+    
+      <rect x="902" y="200" width="36" height="300" fill="#3a2a1a"></rect>
+      <ellipse cx="920" cy="180" rx="110" ry="180" fill="#4a5a2c" opacity="0.9"></ellipse>
+    
+      <rect x="1062" y="200" width="36" height="300" fill="#3a2a1a"></rect>
+      <ellipse cx="1080" cy="180" rx="116" ry="140" fill="#4a5a2c" opacity="0.9"></ellipse>
+    
+      <rect x="1182" y="200" width="36" height="300" fill="#3a2a1a"></rect>
+      <ellipse cx="1200" cy="180" rx="122" ry="160" fill="#4a5a2c" opacity="0.9"></ellipse>
+    
+    
+    <rect y="500" width="1280" height="460" fill="#5a4530"></rect>
+    <path d="M0 520 Q 640 480 1280 540 L 1280 620 Q 640 580 0 640 Z" fill="#6a5438" opacity="0.7"></path>
+    
+    
+      <ellipse cx="280" cy="720" rx="110" ry="60.50000000000001" fill="#d4b896"></ellipse>
+      <ellipse cx="186.5" cy="703.5" rx="44" ry="44" fill="#d4b896"></ellipse>
+      <ellipse cx="153.5" cy="709" rx="11" ry="16.5" fill="#704a38"></ellipse>
+      <circle cx="159" cy="687" r="4" fill="#2a1a10"></circle>
+      <path d="M203 659.5 l10 -18 l8 18 z" fill="#d4b896"></path>
+      <rect x="302" y="753" width="8" height="55" fill="#d4b896"></rect>
+      <rect x="346" y="753" width="8" height="55" fill="#d4b896"></rect>
+      <rect x="236" y="753" width="8" height="55" fill="#d4b896"></rect>
+    
+      <ellipse cx="560" cy="740" rx="120" ry="66" fill="#b8a07e"></ellipse>
+      <ellipse cx="458" cy="722" rx="48" ry="48" fill="#b8a07e"></ellipse>
+      <ellipse cx="422" cy="728" rx="12" ry="18" fill="#704a38"></ellipse>
+      <circle cx="428" cy="704" r="4" fill="#2a1a10"></circle>
+      <path d="M476 674 l10 -18 l8 18 z" fill="#b8a07e"></path>
+      <rect x="584" y="776" width="8" height="60" fill="#b8a07e"></rect>
+      <rect x="632" y="776" width="8" height="60" fill="#b8a07e"></rect>
+      <rect x="512" y="776" width="8" height="60" fill="#b8a07e"></rect>
+    
+      <ellipse cx="820" cy="710" rx="105" ry="57.75000000000001" fill="#d4b896"></ellipse>
+      <ellipse cx="730.75" cy="694.25" rx="42" ry="42" fill="#d4b896"></ellipse>
+      <ellipse cx="699.25" cy="699.5" rx="10.5" ry="15.75" fill="#704a38"></ellipse>
+      <circle cx="704.5" cy="678.5" r="4" fill="#2a1a10"></circle>
+      <path d="M746.5 652.25 l10 -18 l8 18 z" fill="#d4b896"></path>
+      <rect x="841" y="741.5" width="8" height="52.5" fill="#d4b896"></rect>
+      <rect x="883" y="741.5" width="8" height="52.5" fill="#d4b896"></rect>
+      <rect x="778" y="741.5" width="8" height="52.5" fill="#d4b896"></rect>
+    
+      <ellipse cx="1040" cy="730" rx="100" ry="55.00000000000001" fill="#a8896a"></ellipse>
+      <ellipse cx="955" cy="715" rx="40" ry="40" fill="#a8896a"></ellipse>
+      <ellipse cx="925" cy="720" rx="10" ry="15" fill="#704a38"></ellipse>
+      <circle cx="930" cy="700" r="4" fill="#2a1a10"></circle>
+      <path d="M970 675 l10 -18 l8 18 z" fill="#a8896a"></path>
+      <rect x="1060" y="760" width="8" height="50" fill="#a8896a"></rect>
+      <rect x="1100" y="760" width="8" height="50" fill="#a8896a"></rect>
+      <rect x="1000" y="760" width="8" height="50" fill="#a8896a"></rect>
+    
+  
+</svg>

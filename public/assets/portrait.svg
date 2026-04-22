@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 960" preserveAspectRatio="xMidYMid slice">
+  <rect width="1280" height="960" fill="#a89a6a"></rect>
+  
+    <rect y="0" width="1280" height="500" fill="#c8b888"></rect>
+    <rect y="500" width="1280" height="460" fill="#8a7a50"></rect>
+    <circle cx="960" cy="220" r="120" fill="#f4dc88" opacity="0.4"></circle>
+    
+    <ellipse cx="640" cy="820" rx="360" ry="30" fill="#3a2a18" opacity="0.4"></ellipse>
+    
+    <g transform="translate(480,300)">
+      <rect x="-80" y="260" width="160" height="280" fill="#3a4a2a"></rect>
+      <rect x="-80" y="260" width="160" height="40" fill="#2a3a1a"></rect>
+      <ellipse cx="0" cy="220" rx="60" ry="80" fill="#d4a888"></ellipse>
+      <path d="M-65 200 Q 0 130 65 200 L 60 180 Q 0 100 -60 180 Z" fill="#5a3a20"></path>
+      <circle cx="-20" cy="215" r="3" fill="#2a1810"></circle>
+      <circle cx="20" cy="215" r="3" fill="#2a1810"></circle>
+      <path d="M -18 245 Q 0 260 18 245" stroke="#8a4828" stroke-width="2" fill="none"></path>
+      
+      <ellipse cx="0" cy="150" rx="80" ry="15" fill="#3a2818"></ellipse>
+    </g>
+    
+    <g transform="translate(760,310)">
+      <rect x="-80" y="250" width="160" height="290" fill="#8a3828"></rect>
+      <ellipse cx="0" cy="210" rx="58" ry="75" fill="#e8c8a8"></ellipse>
+      <path d="M-60 170 Q 0 100 60 170 Q 70 230 50 260 L -50 260 Q -70 230 -60 170" fill="#8a5828"></path>
+      <circle cx="-18" cy="205" r="3" fill="#2a1810"></circle>
+      <circle cx="18" cy="205" r="3" fill="#2a1810"></circle>
+      <path d="M -15 230 Q 0 245 15 230" stroke="#8a4828" stroke-width="2" fill="none"></path>
+    </g>
+    
+    <ellipse cx="640" cy="820" rx="45" ry="35" fill="#f0e4c0"></ellipse>
+    <circle cx="615" cy="795" r="18" fill="#f0e4c0"></circle>
+    <path d="M600 780 l-3 -10 l10 0 z" fill="#c8402a"></path>
+    <circle cx="605" cy="792" r="2" fill="#1a1511"></circle>
+  
+</svg>
