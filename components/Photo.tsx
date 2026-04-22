@@ -1,4 +1,5 @@
 import type { CSSProperties } from "react";
+import { withBase } from "@/lib/base";
 
 type Props = {
   src: string;
@@ -15,7 +16,7 @@ export function Photo({ src, pos = "center", ratio, style }: Props) {
         height: "100%",
         aspectRatio: ratio,
         backgroundColor: "var(--bone)",
-        backgroundImage: `url(${src})`,
+        backgroundImage: `url(${withBase(src)})`,
         backgroundSize: "cover",
         backgroundPosition: pos,
         backgroundRepeat: "no-repeat",
