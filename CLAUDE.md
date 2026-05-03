@@ -7,6 +7,16 @@
 - **Image bucket**: `gs://fcf-website-prod-uploads` — not yet wired into code.
 - **Container registry**: `us-east1-docker.pkg.dev/fcf-website-prod/fcf-web`.
 
+## Runtime env vars on Cloud Run
+
+Set with `gcloud run services update fcf-web --region=us-east1 --project=fcf-website-prod --update-env-vars=KEY=value`. These persist across `--source` deploys (Cloud Run keeps env vars unless `--clear-env-vars` is used). Mirror in `.env.local` (gitignored) for local dev.
+
+| Var | Purpose |
+|---|---|
+| `GOOGLE_MAPS_API_KEY` | Maps Embed API key (key id `555266bb-3de9-4a9d-8313-2fcb1be37024`, restricted to the Maps Embed API + referrers `https://*.run.app/*`, `https://fustercluckfarm.com/*`, `http://localhost:*/*`). Read in server components only (no `NEXT_PUBLIC_` prefix) so it's a runtime read, not baked into the client bundle. |
+
+If a value is needed *inside* the React bundle (client component), use `NEXT_PUBLIC_*` and set it as a Cloud Build substitution / build arg, not a Cloud Run env var — Cloud Run vars apply at runtime only and don't reach the build.
+
 ## Deploy workflow — ALWAYS follow this, never push directly to main
 
 Direct pushes to `main` are blocked by user policy. Every change ships via PR.

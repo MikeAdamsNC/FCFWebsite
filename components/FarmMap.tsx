@@ -1,48 +1,45 @@
-"use client";
-
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import L from "leaflet";
-import "leaflet/dist/leaflet.css";
 import { getSite } from "@/lib/content";
 
-const pinIcon = L.divIcon({
-  className: "fcf-pin",
-  html: `
-    <div class="fcf-pin-wrap">
-      <div class="fcf-pin-label">Fuster Cluck Farm</div>
-      <div class="fcf-pin-needle"></div>
-    </div>
-  `,
-  iconSize: [180, 56],
-  iconAnchor: [90, 56],
-  popupAnchor: [0, -56],
-});
-
 export function FarmMap() {
-  const { map, contact } = getSite();
-  const position: [number, number] = [map.lat, map.lng];
+  const { brand, contact, map } = getSite();
+  const apiKey = process.env.GOOGLE_MAPS_API_KEY;
+  const query = encodeURIComponent(
+    `${brand.name}, ${contact.address.street}, ${contact.address.city}, ${contact.address.state} ${contact.address.zip}`,
+  );
+  const directionsUrl = map.directionsUrl;
+  const src = apiKey
+    ? `https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=${query}&zoom=${map.zoom}`
+    : null;
+
   return (
     <div className="map-wrap">
-      <MapContainer
-        center={position}
-        zoom={map.zoom}
-        scrollWheelZoom={false}
-        style={{ width: "100%", height: "100%" }}
-      >
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      {src ? (
+        <iframe
+          src={src}
+          title={`${brand.name} on Google Maps`}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          allowFullScreen
+          style={{ width: "100%", height: "100%", border: 0, display: "block" }}
         />
-        <Marker position={position} icon={pinIcon}>
-          <Popup>
-            <strong>{map.pinLabel}</strong>
-            <br />
-            {contact.address.street}
-            <br />
-            {contact.address.city}, {contact.address.state} {contact.address.zip}
-          </Popup>
-        </Marker>
-      </MapContainer>
+      ) : (
+        <a
+          href={directionsUrl}
+          target="_blank"
+          rel="noopener"
+          style={{
+            display: "grid",
+            placeItems: "center",
+            width: "100%",
+            height: "100%",
+            color: "var(--umber-soft)",
+            fontSize: 14,
+            textDecoration: "none",
+          }}
+        >
+          Open in Google Maps &rarr;
+        </a>
+      )}
     </div>
   );
 }
