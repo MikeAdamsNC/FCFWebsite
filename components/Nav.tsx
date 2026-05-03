@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Icon } from "./Icon";
-import { withBase } from "@/lib/base";
 import type { SiteContent } from "@/lib/content";
 
 const LINKS: [string, string][] = [
@@ -51,7 +50,7 @@ export function Nav({ brand, contact, shopHref }: Props) {
           ))}
         </div>
         <Link href="/" className="brand">
-          <img src={withBase(brand.logoUrl)} alt={brand.name} className="brand-logo" />
+          <img src={brand.logoUrl} alt={brand.name} className="brand-logo" />
           <span className="brand-name">{brand.name}</span>
         </Link>
         <div className="nav-cta">
@@ -84,7 +83,7 @@ export function Nav({ brand, contact, shopHref }: Props) {
         <div className="mobile-menu">
           <div className="mobile-menu-head">
             <Link href="/" className="brand" onClick={() => setOpen(false)}>
-              <img src={withBase(brand.logoUrl)} alt="" className="brand-logo" />
+              <img src={brand.logoUrl} alt="" className="brand-logo" />
               <span className="brand-name">{brand.name}</span>
             </Link>
             <button className="nav-close" onClick={() => setOpen(false)} aria-label="Close">

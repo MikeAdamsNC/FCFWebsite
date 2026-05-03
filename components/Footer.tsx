@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Icon } from "./Icon";
 import { getSite } from "@/lib/content";
-import { withBase } from "@/lib/base";
 
 export function Footer() {
   const { brand, contact, social, shopLinks, hours } = getSite();
@@ -13,7 +12,7 @@ export function Footer() {
         <div className="footer-grid">
           <div>
             <img
-              src={withBase(brand.logoUrl)}
+              src={brand.logoUrl}
               alt={brand.name}
               style={{ height: 72, marginBottom: 16, filter: "brightness(0) invert(1)" }}
             />
