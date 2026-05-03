@@ -3,7 +3,7 @@ import { Icon } from "@/components/Icon";
 import { Photo } from "@/components/Photo";
 import { HoursStatus } from "@/components/HoursStatus";
 import { RichText } from "@/components/RichText";
-import { FarmMapLoader } from "@/components/FarmMapLoader";
+import { FarmMap } from "@/components/FarmMap";
 import { getSite } from "@/lib/content";
 
 export const metadata = { title: "Farm Store" };
@@ -80,7 +80,7 @@ export default function FarmStorePage() {
                 Open in Maps &rarr;
               </a>
             </div>
-            <FarmMapLoader />
+            <FarmMap />
             <div style={{ marginTop: 24, display: "flex", gap: 12, flexWrap: "wrap" }}>
               <a
                 href={map.directionsUrl}
