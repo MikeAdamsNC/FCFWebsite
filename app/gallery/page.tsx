@@ -6,8 +6,8 @@ import { getSite } from "@/lib/content";
 
 export const metadata = { title: "Gallery" };
 
-export default function GalleryPage() {
-  const { gallery, pages } = getSite();
+export default async function GalleryPage() {
+  const { gallery, pages } = await getSite();
   const p = pages.gallery;
   return (
     <>

@@ -7,13 +7,26 @@
 - **Image bucket**: `gs://fcf-website-prod-uploads` — not yet wired into code.
 - **Container registry**: `us-east1-docker.pkg.dev/fcf-website-prod/fcf-web`.
 
+## Admin section
+
+- URL: `/admin/login` → all editors live under `/admin/*`. Middleware (`middleware.ts`) redirects unauthenticated requests to login.
+- Username: `admin`. Password is set via the `ADMIN_PASS_HASH` env var (bcrypt). To rotate: `node -e "console.log(require('bcryptjs').hashSync('NEW_PASSWORD', 12))"` then update both the `.env.local` (escaping `$` as `\$`) and Cloud Run (no escaping needed).
+- Storage: site content lives in Firestore at `site/main`. On first read the doc is seeded from `content/site.json`. After that, `site.json` is just a fallback / type reference — Firestore is the source of truth.
+- Image uploads: `app/admin/api/upload/route.ts` POST → `gs://fcf-website-prod-uploads`, returns `https://storage.googleapis.com/...` URL. Bucket is public-read so URLs work directly.
+- Saves call `revalidatePath("/", "layout")` to invalidate the Next.js cache; user-facing pages are also marked `dynamic = "force-dynamic"` via the root layout, so changes show up immediately.
+
 ## Runtime env vars on Cloud Run
 
-Set with `gcloud run services update fcf-web --region=us-east1 --project=fcf-website-prod --update-env-vars=KEY=value`. These persist across `--source` deploys (Cloud Run keeps env vars unless `--clear-env-vars` is used). Mirror in `.env.local` (gitignored) for local dev.
+Set with `gcloud run services update fcf-web --region=us-east1 --project=fcf-website-prod --update-env-vars=KEY=value`. These persist across `--source` deploys (Cloud Run keeps env vars unless `--clear-env-vars` is used). Mirror in `.env.local` (gitignored) for local dev — and **escape `$` as `\$` in `.env.local`** because Next.js's dotenv expander chews up bcrypt hashes.
 
 | Var | Purpose |
 |---|---|
-| `GOOGLE_MAPS_API_KEY` | Maps Embed API key (key id `555266bb-3de9-4a9d-8313-2fcb1be37024`, restricted to the Maps Embed API + referrers `https://*.run.app/*`, `https://fustercluckfarm.com/*`, `http://localhost:*/*`). Read in server components only (no `NEXT_PUBLIC_` prefix) so it's a runtime read, not baked into the client bundle. |
+| `GOOGLE_MAPS_API_KEY` | Maps Embed API key (id `555266bb-3de9-4a9d-8313-2fcb1be37024`, restricted to Maps Embed + Cloud Run/localhost referrers). Server-only, no `NEXT_PUBLIC_`. |
+| `ADMIN_USERNAME` | Admin login username (currently `admin`). |
+| `ADMIN_PASS_HASH` | Bcrypt hash of admin password. |
+| `SESSION_SECRET` | iron-session cookie signing key (≥ 32 chars). |
+| `GCS_UPLOADS_BUCKET` | Cloud Storage bucket for admin image uploads (`fcf-website-prod-uploads`). |
+| `GCP_PROJECT` | GCP project id (`fcf-website-prod`) — used by the Firestore + Storage clients. |
 
 If a value is needed *inside* the React bundle (client component), use `NEXT_PUBLIC_*` and set it as a Cloud Build substitution / build arg, not a Cloud Run env var — Cloud Run vars apply at runtime only and don't reach the build.
 

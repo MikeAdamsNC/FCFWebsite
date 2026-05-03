@@ -2,8 +2,8 @@ import Link from "next/link";
 import { Icon } from "./Icon";
 import { getSite } from "@/lib/content";
 
-export function Footer() {
-  const { brand, contact, social, shopLinks, hours } = getSite();
+export async function Footer() {
+  const { brand, contact, social, shopLinks, hours } = await getSite();
   const currentYear = new Date().getFullYear();
 
   return (

@@ -15,11 +15,11 @@ export function HoursBand({ hours, contactAddress }: Props) {
   const [state, setState] = useState(() => ({ open: false, note: "" }));
 
   useEffect(() => {
-    const update = () => setState({ open: isOpenNow(), note: nextOpening() });
+    const update = () => setState({ open: isOpenNow(hours), note: nextOpening(hours) });
     update();
     const id = setInterval(update, 60_000);
     return () => clearInterval(id);
-  }, []);
+  }, [hours]);
 
   return (
     <section className="hours-band">

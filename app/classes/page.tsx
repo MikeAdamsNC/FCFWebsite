@@ -6,8 +6,8 @@ import { getSite, type ClassEvent } from "@/lib/content";
 
 export const metadata = { title: "Classes" };
 
-export default function ClassesPage() {
-  const { classes, pages } = getSite();
+export default async function ClassesPage() {
+  const { classes, pages } = await getSite();
   const p = pages.classes;
   return (
     <>

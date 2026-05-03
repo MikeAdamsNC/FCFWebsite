@@ -1,20 +1,18 @@
-import { getSite } from "./content";
+import type { Hours } from "./content-types";
 
-export function isOpenNow(now: Date = new Date()): boolean {
-  const { hours } = getSite();
+export function isOpenNow(hours: Hours, now: Date = new Date()): boolean {
   const day = now.getDay();
   const h = now.getHours() + now.getMinutes() / 60;
   return hours.days.includes(day) && h >= hours.open && h < hours.close;
 }
 
-export function nextOpening(now: Date = new Date()): string {
-  const { hours } = getSite();
+export function nextOpening(hours: Hours, now: Date = new Date()): string {
   const day = now.getDay();
   const h = now.getHours() + now.getMinutes() / 60;
   const openLabel = formatHour(hours.open);
   const closeLabel = formatHour(hours.close);
   if (hours.days.includes(day) && h < hours.close) {
-    return h < hours.open ? `Opens today at ${openLabel}` : `Open now \u00b7 Closes at ${closeLabel}`;
+    return h < hours.open ? `Opens today at ${openLabel}` : `Open now · Closes at ${closeLabel}`;
   }
   const nextDay = nextOpenDay(day, hours.days);
   const daysAhead = ((nextDay - day + 7) % 7) || 7;
