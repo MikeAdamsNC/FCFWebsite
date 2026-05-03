@@ -37,8 +37,8 @@ export default async function ClassesListPage() {
                 <ListActions
                   index={i}
                   total={classes.length}
-                  onMove={async (idx, dir) => moveClassAction(idx, dir)}
-                  onDelete={async (idx) => deleteClassAction(idx)}
+                  onMove={moveClassAction}
+                  onDelete={deleteClassAction}
                   deleteConfirm={`Delete "${c.name}"?`}
                 />
               </div>
