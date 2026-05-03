@@ -8,18 +8,21 @@ type Props = { classes: ClassEvent[] };
 
 type MonthState = { y: number; m: number };
 
+function localTodayStr(): string {
+  const d = new Date();
+  const m = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${d.getFullYear()}-${m}-${day}`;
+}
+
 export function ClassesCalendar({ classes }: Props) {
-  const initial = useMemo<MonthState>(() => {
-    const first = classes[0];
-    if (first) {
-      const [y, m] = first.date.split("-").map(Number);
-      return { y, m: (m ?? 1) - 1 };
-    }
+  const todayStr = localTodayStr();
+  const upcoming = useMemo(() => classes.filter((c) => c.date >= todayStr), [classes, todayStr]);
+
+  const [month, setMonth] = useState<MonthState>(() => {
     const d = new Date();
     return { y: d.getFullYear(), m: d.getMonth() };
-  }, [classes]);
-
-  const [month, setMonth] = useState<MonthState>(initial);
+  });
   const [selected, setSelected] = useState<number | null>(null);
 
   const monthName = new Date(month.y, month.m, 1).toLocaleString("en-US", { month: "long" });
@@ -29,14 +32,14 @@ export function ClassesCalendar({ classes }: Props) {
 
   const eventDays = useMemo(() => {
     const map: Record<number, ClassEvent> = {};
-    classes.forEach((c) => {
+    upcoming.forEach((c) => {
       const [y, m, d] = c.date.split("-").map(Number);
       if (y === month.y && (m ?? 0) - 1 === month.m) {
         map[d ?? 0] = c;
       }
     });
     return map;
-  }, [classes, month]);
+  }, [upcoming, month]);
 
   const cells: { muted?: boolean; n: number; event?: ClassEvent }[] = [];
   for (let i = 0; i < firstDow; i++)
@@ -56,11 +59,11 @@ export function ClassesCalendar({ classes }: Props) {
   };
 
   const filtered = selected
-    ? classes.filter((c) => {
+    ? upcoming.filter((c) => {
         const [y, m, d] = c.date.split("-").map(Number);
         return y === month.y && (m ?? 0) - 1 === month.m && d === selected;
       })
-    : classes;
+    : upcoming;
 
   return (
     <div className="classes-wrap">
