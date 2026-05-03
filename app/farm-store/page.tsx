@@ -7,6 +7,7 @@ import { FarmMap } from "@/components/FarmMap";
 import { getSite } from "@/lib/content";
 
 export const metadata = { title: "Farm Store" };
+export const dynamic = "force-dynamic";
 
 export default function FarmStorePage() {
   const { pages, hours, stock, contact, map } = getSite();
