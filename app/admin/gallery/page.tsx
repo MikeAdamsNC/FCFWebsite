@@ -29,8 +29,8 @@ export default async function GalleryListPage() {
                 <ListActions
                   index={i}
                   total={gallery.length}
-                  onMove={async (idx, dir) => moveGalleryAction(idx, dir)}
-                  onDelete={async (idx) => deleteGalleryAction(idx)}
+                  onMove={moveGalleryAction}
+                  onDelete={deleteGalleryAction}
                   deleteConfirm="Delete this photo?"
                 />
               </div>

@@ -42,8 +42,8 @@ export default async function ProductsListPage() {
                 <ListActions
                   index={i}
                   total={products.length}
-                  onMove={async (idx, dir) => moveProductAction(idx, dir)}
-                  onDelete={async (idx) => deleteProductAction(idx)}
+                  onMove={moveProductAction}
+                  onDelete={deleteProductAction}
                   deleteConfirm={`Delete "${p.name}"?`}
                 />
               </div>

@@ -29,8 +29,8 @@ export default async function AnimalsListPage() {
                 <ListActions
                   index={i}
                   total={animals.length}
-                  onMove={async (idx, dir) => moveAnimalAction(idx, dir)}
-                  onDelete={async (idx) => deleteAnimalAction(idx)}
+                  onMove={moveAnimalAction}
+                  onDelete={deleteAnimalAction}
                   deleteConfirm={`Delete "${a.name}"?`}
                 />
               </div>
