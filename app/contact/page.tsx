@@ -6,8 +6,8 @@ import { getSite } from "@/lib/content";
 
 export const metadata = { title: "Contact" };
 
-export default function ContactPage() {
-  const { pages, contact, hours } = getSite();
+export default async function ContactPage() {
+  const { pages, contact, hours } = await getSite();
   const p = pages.contact;
   const hoursLine = `${hours.display[0]?.label.trim()} & ${hours.display[1]?.label.trim()}, ${hours.display[0]?.value.trim()}`;
   return (

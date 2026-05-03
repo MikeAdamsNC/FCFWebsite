@@ -14,8 +14,10 @@ export const metadata: Metadata = {
     "A small family farm in Kenly, NC, raising pasture chicken, pork, and lamb \u2014 sold direct to families who care where their food comes from.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const { brand, contact, shopLinks } = getSite();
+export const dynamic = "force-dynamic";
+
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const { brand, contact, shopLinks } = await getSite();
   return (
     <html lang="en">
       <head>

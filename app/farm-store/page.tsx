@@ -9,8 +9,8 @@ import { getSite } from "@/lib/content";
 export const metadata = { title: "Farm Store" };
 export const dynamic = "force-dynamic";
 
-export default function FarmStorePage() {
-  const { pages, hours, stock, contact, map } = getSite();
+export default async function FarmStorePage() {
+  const { pages, hours, stock, contact, map } = await getSite();
   const p = pages.farmStore;
   return (
     <>
@@ -42,7 +42,7 @@ export default function FarmStorePage() {
                 className="hours-card"
                 style={{ padding: 28, display: "flex", flexDirection: "column", gap: 16 }}
               >
-                <HoursStatus />
+                <HoursStatus hours={hours} />
                 <hr className="rule" />
                 <div className="hours-sched" style={{ flexDirection: "column", gap: 12 }}>
                   {hours.display.map((row) => (

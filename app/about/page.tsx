@@ -6,8 +6,8 @@ import { getSite } from "@/lib/content";
 
 export const metadata = { title: "About" };
 
-export default function AboutPage() {
-  const { pages } = getSite();
+export default async function AboutPage() {
+  const { pages } = await getSite();
   const p = pages.about;
   return (
     <>

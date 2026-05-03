@@ -6,8 +6,8 @@ import { HeroVisual, TITLE_VARIANTS, type HeroVariant, type TitleVariant } from 
 import { RichText } from "@/components/RichText";
 import { getSite } from "@/lib/content";
 
-export default function HomePage() {
-  const site = getSite();
+export default async function HomePage() {
+  const site = await getSite();
   const { hero, homeStory, homeQuote, homeCta, shopLinks, animals, contact, hours } = site;
   const titleKey = (hero.titleVariant as TitleVariant) in TITLE_VARIANTS
     ? (hero.titleVariant as TitleVariant)

@@ -1,7 +1,7 @@
 import { getSite } from "@/lib/content";
 
-export function Announce() {
-  const { announce } = getSite();
+export async function Announce() {
+  const { announce } = await getSite();
   return (
     <div className="announce">
       <div className="inner">

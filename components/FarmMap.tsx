@@ -1,7 +1,7 @@
 import { getSite } from "@/lib/content";
 
-export function FarmMap() {
-  const { brand, contact, map } = getSite();
+export async function FarmMap() {
+  const { brand, contact, map } = await getSite();
   const apiKey = process.env.GOOGLE_MAPS_API_KEY;
   const query = encodeURIComponent(
     `${brand.name}, ${contact.address.street}, ${contact.address.city}, ${contact.address.state} ${contact.address.zip}`,
